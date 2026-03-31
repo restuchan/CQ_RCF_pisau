@@ -22,9 +22,20 @@ namespace PraktikumADO
                 "Data Source=LAPTOP-VFPNPC8H\\CENJAJA;Initial Catalog=DBAkademikADO;Integrated Security=True"
             );
         }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
