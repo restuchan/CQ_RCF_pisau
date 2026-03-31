@@ -23,6 +23,10 @@ namespace PraktikumADO
             );
         }
 
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            
+        }
         private void btnHitungMK_Click(object sender, EventArgs e)
         {
             try
