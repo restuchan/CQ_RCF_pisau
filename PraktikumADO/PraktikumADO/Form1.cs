@@ -56,7 +56,7 @@ namespace PraktikumADO
 
                 int jumlah = (int)cmd.ExecuteScalar();
 
-                txtHasil.Text = jumlah.ToString();
+                label1.Text = jumlah.ToString();
 
                 conn.Close();
             }
@@ -77,7 +77,7 @@ namespace PraktikumADO
 
                 int jumlah = (int)cmd.ExecuteScalar();
 
-                txtHasil.Text = jumlah.ToString();
+                label1.Text = jumlah.ToString();
 
                 conn.Close();
             }
